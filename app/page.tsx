@@ -167,9 +167,28 @@ export default function Home() {
 
   )
 }
+export default function Page({searchParams}:{searchParams:{to?:string}}){
 
+const name = searchParams.to
 
+return(
 
+<div>
+
+{ name && (
+
+<p>
+Kepada Yth.<br/>
+Bapak/Ibu/Saudara/i {semuanya}
+</p>
+
+)}
+
+</div>
+
+)
+
+}
 
 
 

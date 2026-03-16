@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+body{
+
+background-image:url("/images/pattern.png");
+background-size:400px;
+opacity:0.05;
+
+}
